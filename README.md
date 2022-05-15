@@ -1,2 +1,2 @@
-# Book-Store-CRUD-Application-with-JDBC
-Java Book Store CRUD Application
+# Book Store CRUD Application with JDBC
+## Java Simple Book Store CRUD Application
