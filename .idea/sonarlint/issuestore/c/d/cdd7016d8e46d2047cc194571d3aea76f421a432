@@ -1,0 +1,42 @@
+
+f	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““Éµ
+f	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““Éµ
+f	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““Éµ
+f	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““Éµ
+f	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““Éµ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å´½èüÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖËæÊùÿÿÿÿ
+k	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë„ÛÉúÿÿÿÿ
+f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÌ×È
+f	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷«¶ã
+j	java:S116"URename this field "book_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÕÙª
+n	java:S116"YRename this field "book_publisher" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÕÙª
+i	java:S116"TRename this field "book_ISBN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÕÙª
+q	java:S116"\Rename this field "book_publish_year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÕÙª
+m	java:S116"XRename this field "book_totPages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÏ¶
+a
+java:S1659"KDeclare "book_publisher" and all following declarations on a separate line.(•ÕÙª
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÉÊ—úÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å´½èüÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åòáÁøÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖËæÊùÿÿÿÿ
+h	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÁÅ–ûÿÿÿÿ
+h	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë„ÛÉúÿÿÿÿ
+c	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó”ãš
+c	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÌ×È
+h	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ö§–øÿÿÿÿ
+c	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷«¶ã
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(Âò±®úÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+M	java:S106="9Replace this use of System.out or System.err by a logger.(ôç£s
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ÜŠĞúÿÿÿÿ
+L	java:S106A"9Replace this use of System.out or System.err by a logger.(÷³z
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ö¡Šó
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(¿›®“ùÿÿÿÿ8„ô¬ËŒ0
+Y
+java:S1128">Remove this unused import 'java.util.function.BinaryOperator'.(º÷ùÿÿÿÿ
