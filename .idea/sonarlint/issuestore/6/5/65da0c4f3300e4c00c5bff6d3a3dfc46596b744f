@@ -1,33 +1,0 @@
-
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô³ø˜ÿÿÿÿÿ
-e	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øõô>
-w
-java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "ISBN".(ô³ø˜ÿÿÿÿÿ
-l	java:S116	"RRename this field "DB_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú©Ñìýÿÿÿÿ
-i	java:S116
-"ORename this field "USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ­èëüÿÿÿÿ
-h	java:S116"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó•ãî
-<
-java:S1170	"!Make this final field static too.(ú©Ñìýÿÿÿÿ
-<
-java:S1170
-"!Make this final field static too.(õ­èëüÿÿÿÿ
-7
-java:S1170"!Make this final field static too.(Ó•ãî
-L	java:S106"9Replace this use of System.out or System.err by a logger.(÷³z
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(»Ì·óüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(äüÃâ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
-S	java:S106""9Replace this use of System.out or System.err by a logger.(ºÎÔ¤üÿÿÿÿ
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(¯³úøÿÿÿÿ
-S	java:S106("9Replace this use of System.out or System.err by a logger.(êÑ¿ÿÿÿÿÿ
-M	java:S106)"9Replace this use of System.out or System.err by a logger.(§ü:
-S	java:S106*"9Replace this use of System.out or System.err by a logger.(Šáˆƒûÿÿÿÿ
-N	java:S106+"9Replace this use of System.out or System.err by a logger.(¸áó²
-M	java:S106,"9Replace this use of System.out or System.err by a logger.(Ë•¶
-Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ýûžÌúÿÿÿÿ8ŠˆîËŒ0
-U	java:S106."9Replace this use of System.out or System.err by a logger.(È®ü„8ˆîËŒ0
-Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÂÂîËŒ0
-T	java:S1062"9Replace this use of System.out or System.err by a logger.(¹­þe8ìÅðËŒ0
-Z	java:S1064"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8‚¯ñËŒ0

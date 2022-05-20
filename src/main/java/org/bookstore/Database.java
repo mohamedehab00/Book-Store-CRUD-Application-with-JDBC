@@ -216,4 +216,105 @@ public class Database {
             e.printStackTrace();
         }
     }
+
+    private String updateBookTitleQuery(String isbn, String value) {
+        String query = "UPDATE books SET book_title = '%s' WHERE book_ISBN = '%s'";
+        query = String.format(query, value, isbn);
+        return query;
+    }
+
+    private void executeUpdateBookTitle(String ISBN,String value) throws SQLException{
+        Statement st = this.connection.createStatement();
+
+        st.executeUpdate(updateBookTitleQuery(ISBN,value));
+
+        System.out.println("Book Updated!!!");
+    }
+
+    public void updateBookTitle(String ISBN, String value){
+        try {
+            connectToDB();
+
+            executeUpdateBookTitle(ISBN, value);
+
+            endConnectionToDB();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String updateBookPageNumQuery(String isbn, String value) {
+        String query = "UPDATE books SET book_totPages = %s WHERE book_ISBN = '%s'";
+        return String.format(query, value, isbn);
+    }
+
+    private void executeUpdateBookPageNum(String ISBN,String value) throws SQLException{
+        Statement st = this.connection.createStatement();
+
+        st.executeUpdate(updateBookPageNumQuery(ISBN,value));
+
+        System.out.println("Book Updated!!!");
+    }
+
+    public void updateBookPageNum(String ISBN, String value){
+        try {
+            connectToDB();
+
+            executeUpdateBookPageNum(ISBN, value);
+
+            endConnectionToDB();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String updateBookPublisherQuery(String isbn, String value) {
+        String query = "UPDATE books SET book_publisher = '%s' WHERE book_ISBN = '%s'";
+        return String.format(query, value, isbn);
+    }
+
+    private void executeUpdateBookPublisher(String ISBN,String value) throws SQLException{
+        Statement st = this.connection.createStatement();
+
+        st.executeUpdate(updateBookPublisherQuery(ISBN,value));
+
+        System.out.println("Book Updated!!!");
+    }
+
+    public void updateBookPublisher(String ISBN, String value){
+        try {
+            connectToDB();
+
+            executeUpdateBookPublisher(ISBN, value);
+
+            endConnectionToDB();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String updateBookPublishYearQuery(String isbn, String value) {
+        String query = "UPDATE books SET book_publish_year = '%s' WHERE book_ISBN = '%s'";
+        return String.format(query, value, isbn);
+    }
+
+    private void executeUpdateBookPublishYear(String ISBN,String value) throws SQLException{
+        Statement st = this.connection.createStatement();
+
+        st.executeUpdate(updateBookPublishYearQuery(ISBN,value));
+
+        System.out.println("Book Updated!!!");
+    }
+
+    public void updateBookPublishYear(String ISBN, String value){
+        try {
+            connectToDB();
+
+            executeUpdateBookPublishYear(ISBN, value);
+
+            endConnectionToDB();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }

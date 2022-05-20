@@ -5,10 +5,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class BookStore {
-    private Database db;
+    private final Database db;
     private final String DB_NAME = "books_store";
     private final String USER = "root";
     private final String PASSWORD = "ROOT";
+
+    private enum BOOK_VALUES{
+        TITLE,PAGES_NO,PUBLISHER,PUBLISH_YEAR,NULL;
+    }
 
     public BookStore() {
         db = new Database(this.DB_NAME, this.USER, this.PASSWORD);
@@ -63,6 +67,26 @@ public class BookStore {
                     db.removeAllBooks();
                     break;
                 case '4':
+                    BOOK_VALUES Choice = getValuesChoice(scan);
+                    String ISBN = getISBNFromUser(scan);
+                    String newValue = getNewValueFromUser(scan);
+                    switch (Choice){
+                        case TITLE :
+                            db.updateBookTitle(ISBN, newValue);
+                            break;
+                        case PAGES_NO :
+                            db.updateBookPageNum(ISBN, newValue);
+                            break;
+                        case PUBLISHER :
+                            db.updateBookPublisher(ISBN, newValue);
+                            break;
+                        case PUBLISH_YEAR :
+                            db.updateBookPublishYear(ISBN, newValue);
+                            break;
+                        case NULL:
+                        default :
+                            System.out.println("Invalid Input");
+                    }
                     break;
                 case '5':
                     ArrayList<Book> retrievedBook = db.retrieveBook(getISBNFromUser(scan));
@@ -77,5 +101,36 @@ public class BookStore {
                     StartUP = false;
             }
         }
+    }
+
+    private BOOK_VALUES getValuesChoice(Scanner scan) {
+        System.out.println("Choose the field you want to update its value : ");
+        System.out.println("1) Book Title" +
+                " 2) Book Page No." +
+                " 3) Book Publisher" +
+                " 4) Book Publish Year");
+        System.out.print("Choice : ");
+        int choice;
+        try {
+            choice = scan.nextInt();
+            scan.nextLine();
+        }
+        catch (Exception e){
+            choice = 0;
+        }
+
+        return switch (choice){
+            case 1 -> BOOK_VALUES.TITLE;
+            case 2 -> BOOK_VALUES.PAGES_NO;
+            case 3 -> BOOK_VALUES.PUBLISHER;
+            case 4 -> BOOK_VALUES.PUBLISH_YEAR;
+            default -> BOOK_VALUES.NULL;
+        };
+    }
+
+    private String getNewValueFromUser(Scanner scan) {
+        System.out.print("Value : ");
+        String value = scan.nextLine();
+        return value;
     }
 }
